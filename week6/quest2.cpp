@@ -119,8 +119,8 @@ void process_print(char *p_arr[10][10],int *m,int *n){
 	    cin>>x>>y;
 	    cout<<"Move To -> ";
 	    cin>>move_to;
-	    move_remove(p_arr,x,y,move_to);
 	    Down(p_arr,*m,*n);
+	    move_remove(p_arr,x,y,move_to);
 	}
 	
 }
